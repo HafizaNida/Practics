@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".ui.signUp.SignUpActivity">
+    <TextView
+        android:id="@+id/signUpTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="54sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+    <EditText
+        android:id="@+id/fullNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textSize="30sp"
+        android:backgroundTint="#2196F3"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_launcher_background"/>
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="12dp"
+        android:textSize="30sp"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_launcher_background"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_launcher_background"/>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:padding="12dp"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>
